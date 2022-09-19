@@ -14,7 +14,7 @@ header {
 h1 {
   padding-bottom: 10px;
 }
-
+/* This will add some color to the background of the web page */
 .back {
   background-color: #ebebeb;
 }
@@ -43,3 +43,8 @@ footer {
 a {
   text-decoration: none;
 }
+
+a:link { color: blue; }
+a:visited { color: red; }
+a:hover { color: green; }
+a:active { color: purple; }
